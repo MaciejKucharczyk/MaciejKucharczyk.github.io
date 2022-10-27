@@ -1,0 +1,69 @@
+:root {
+    --dark: rgb(20, 20, 20);
+    --yellow: rgb(253, 216, 53);
+    --blue: rgb(98, 0, 234);
+    --orange: rgb(255, 127, 80);
+  
+    --c1: rgb(38, 70, 83);
+    --c2: rgb(42, 157, 143);
+}
+
+
+body {
+    background-color: var(--dark);
+    margin: 0px;
+    cursor:initial;
+}
+
+.side {
+    display: inline;
+    height: 100vh;
+    overflow: hidden;
+    place-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.side .title{
+    font-family: "Rubik", sans-serif;
+    font-size: 8vw;
+    margin: 0px 10vw;
+    width: 80vw;
+}
+
+.side .phone{
+    font-family: "Lobster", cursive;
+    font-size: 0.8em;
+    line-height: 0.8em;
+}
+
+.side .link{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.6em;
+    place-items: center;
+
+}
+
+#left-side{
+    background-color:rgb(153, 133, 108);
+}
+
+#left-side .title{
+    color: var(--yellow);
+}
+
+#left-side .phone{
+    background-color: black;
+    color: orange;
+}
+
+#up{
+    margin: 450px 5vw;
+    color: white;
+}
+
+#bottom{
+    margin: 500px 5vw;
+    color: white;
+}
+
